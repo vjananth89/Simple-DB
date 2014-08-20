@@ -70,7 +70,7 @@ in the Package Explorer. Select “Run As”, and then “Ant Build...” (note:
 of the next screen, check off the targets you want to run (probably “dist” and one of “test” or
 “systemtest”). This should run the build targets and show you the results in Eclipse’s console
 window.
-
+```
 If you run the unit tests using the test build target, you will see output similar to:
 Buildfile: /Users/jhh/Documents/workspace/simpledb-1/build.xml
 compile:
@@ -101,6 +101,7 @@ BUILD FAILED
 /Users/jhh/Documents/workspace/simpledb-1/build.xml:106: The following error occurred while executing this line:
 /Users/jhh/Documents/workspace/simpledb-1/build.xml:58: Test simpledb.CatalogTest failed
 Total time: 2 seconds
+```
 
 
 The above output indicates that two errors occurred. This is because the current code doesn’t
